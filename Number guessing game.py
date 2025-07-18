@@ -2,7 +2,7 @@ import random
 
 def play_game():
     number_to_guess = random.randint(1, 100)
-    max_attempts = 8
+    max_attempts = 10
     attempts = 0
 
     print("\nI'm thinking of a number between 1 and 100.")
